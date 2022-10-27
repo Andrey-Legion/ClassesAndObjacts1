@@ -21,7 +21,7 @@ public class Book {
     }
 
     public void setYearPublishing(int yearPublishing) {
-        if (yearPublishing>2023){
+        if (yearPublishing>2032){
             System.out.println("Неправильно введённый год издания " + yearPublishing);
             return;
         }
